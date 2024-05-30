@@ -1,0 +1,342 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #201000;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.menu .logo {
+    flex: 1;
+}
+
+.menu .linkler {
+    flex: 4;
+}
+
+.menu .butonlar {
+    flex: 1;
+}
+
+.logo img {
+    width: 240px;
+}
+
+
+
+.linkler ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+    max-width: 600px;
+}
+
+
+.linkler ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 4px 20px;
+    display: block;
+}
+
+.linkler ul li {
+    float: left;
+    
+    display: block;
+    text-align: center;
+    height: 50px;
+    padding-top: 13px;
+}
+
+.linkler ul li:hover {
+    background-color: sienna;
+}
+
+.linkler {
+    overflow: hidden;
+    min-width: 400px;
+}
+
+.logo {
+    padding: 8px;
+    padding-left: 20px;
+}
+
+
+.butonlar {
+    padding-top: 10px;
+}
+
+.butonlar a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin-right: 15px;
+}
+
+.hero {
+    background-image: url(red-coffee-mug-2560x960.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.herocard {
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 30%;
+    min-width: 340px;
+    padding: 50px 10px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.herosol {
+    padding-left: 10%;
+    padding-top: 18%;
+}
+
+.cardbuton a {
+    display: inline-block;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.bg-kirmizi {
+    background-color: crimson;
+}
+
+.bg-light {
+    background-color: seashell;
+}
+
+.bg-dark {
+
+    background-color: #201000;
+}
+
+.text-light {
+    color: ghostwhite;
+}
+
+.text-kirmizi {
+    color: crimson;
+}
+
+.text-dark {
+    color: #201000;
+}
+
+.yuvarla {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.p-20 {
+
+    padding: 20px 0px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.hakkimizda {
+
+    padding: 10% 5%;
+
+    text-align: center;
+}
+
+.hakkimizda p {
+    font-size: 21px;
+    line-height: 32px;
+    width: 50%;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.subeler {
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.sube-liste {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sube {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 4px 4px 10px darkgrey;
+    min-width: 150px;
+}
+
+.sube img {
+    width: 100%;
+}
+
+.sube:hover {
+    box-shadow: 8px 8px 20px darkgray;
+}
+
+
+header {
+
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.iletisim{
+    padding: 10% 5%;
+    
+}
+.iletisimalan{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iletisimcard1{
+    flex: 2;
+    min-width: 380px;
+    padding: 3%;
+}
+
+.iletisimcard2{
+    flex: 1;
+    min-width: 380px;
+    padding: 3%;
+}
+
+.iletisimcard2 input, .iletisimcard2 textarea {
+    width: 100%;
+   background-color: transparent;
+   border: none;
+   margin-bottom: 30px;
+   border-bottom: 1px solid seashell;
+   font-size: 21px;
+    
+   padding-bottom: 10px;
+}
+.iletisimcard2 button{
+    width: 100%;
+    background-color: seashell;
+    color: #201000;
+    padding: 6px;
+    text-align: center;
+    border: none;
+    border-radius: 6px ;
+    -webkit-border-radius: 6px ;
+    -moz-border-radius: 6px ;
+    -ms-border-radius: 6px ;
+    -o-border-radius: 6px ;
+    font-size: 21px;
+}
+
+footer p{
+    margin: 0;
+    padding: 20px;
+    font-size: 21px;
+    text-align: center;
+  
+
+}
+
+
+footer p .kalp{
+    color: crimson;
+    position: absolute;
+}
+
+footer p .kalp:hover{
+    font-size: 29px;
+}
+footer .bos{
+width: 20px;
+display: inline-block;
+}
+
+.iletisim h2{
+    text-align: center;
+}
+
+
+h2{
+    font-size: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

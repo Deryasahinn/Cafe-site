@@ -1,0 +1,333 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #201000;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+
+
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 50px;
+    padding: 0px;
+    min-width: 600px;
+
+}
+
+.menu .logo {
+    flex: 1;
+}
+
+.menu .linkler {
+    flex: 4;
+}
+
+.menu .linkler li:hover {
+    background-color: brown;
+
+}
+
+
+.menu .buton {
+    flex: 1;
+}
+
+
+.bg-dark {
+    background-color: #201000;
+}
+
+.bg-light {
+    background-color: seashell;
+}
+
+.text-light {
+    color: seashell;
+}
+
+.text-dark {
+    color: #201000;
+
+}
+
+.p-20 {
+    padding: 20px 0px;
+}
+
+.logo img {
+    width: 240px;
+    padding: 8px 10px;
+}
+
+.linkler ul {
+
+    width: 100%;
+    margin: auto;
+    margin-left: 10%;
+    overflow: hidden;
+    max-width: 650px;
+
+
+}
+
+
+.linkler ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    padding: 2% 3%;
+    padding-top: 15px;
+    line-height: 32px;
+
+}
+
+.linkler ul li a {
+    text-decoration: none;
+    color: seashell;
+    font-size: 21px;
+
+}
+
+.buton {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.buton a {
+    padding-left: 5%;
+    color: seashell;
+    overflow: hidden;
+    min-width: 650px;
+
+}
+
+.hero {
+    background-image: url(red-coffee-mug-2560x960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.herosol {
+    padding: 15% 10%;
+
+
+
+}
+
+.herocard {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 35%;
+    height: 250px;
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    min-width: 400px;
+
+
+}
+
+.cardbuton {
+    display: inline-block;
+
+}
+
+.cardbuton a {
+    text-decoration: none;
+    text-align: center;
+    color: #201000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 5px;
+}
+
+.hakkimizda h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.hakkimizda {
+    text-align: center;
+    font-size: 21px;
+    padding-top: 10%;
+    height: 600px;
+
+
+}
+
+.hakkimizda p {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    line-height: 36px;
+    margin-top: 50px;
+
+}
+
+.subeler {
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.sube-liste {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sube {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 4px 4px 10px darkgrey;
+    min-width: 150px;
+}
+
+.sube:hover {
+    box-shadow: 8px 8px 20px darkgray;
+}
+
+.sube img {
+    width: 100%;
+}
+
+.subeler h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+}
+
+.iletisimalan {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0%;
+}
+
+
+.iletisimcard1 {
+    flex: 2;
+    padding: 0px 30px;
+}
+
+.iletisimcard2 {
+    flex: 1;
+    min-width: 380px;
+
+}
+
+
+.iletisim h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 42px;
+    min-width: 380px;
+}
+
+.iletisim {
+    padding: 10% 5%;
+
+
+}
+
+.iletisimcard2 input,
+.iletisimcard2 textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid seashell;
+    font-size: 21px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.iletisimcard2 button {
+    width: 100%;
+    background-color: seashell;
+    padding: 6px;
+    border: none;
+    font-size: 21px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    text-align: center;
+}
+
+footer p .kalp {
+    color: crimson;
+    font-size: 24px;
+    position: absolute;
+}
+
+footer p .kalp:hover {
+    font-size: 32px;
+}
+
+footer p .bos {
+    width: 20px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
